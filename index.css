@@ -4,9 +4,11 @@ body {
     text-align: center;
     background: #1F1F1F url("bg.png") fixed;
     margin-top: 50px;
+    font-family: Roboto;
+    color: white;
 }
 
-div {
+.card {
     width: 960px;
     margin: 20px auto;
     background: #25232A;
@@ -18,4 +20,17 @@ div {
 canvas {
     background: rgb(0, 0, 0);
     border-radius: 5px;
+}
+
+.inputs {
+    display: flex;
+    justify-content: center;
+}
+
+.inputs > div {
+    width: 100%;
+}
+
+input {
+    width: 100px;
 }
